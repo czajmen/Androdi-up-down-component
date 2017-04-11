@@ -11,8 +11,8 @@
                         android:startColor="#DCE5FD" />
 
                     <size
-                        android:width="50dp"
-                        android:height="50dp"></size>
+                        android:width="55dp"
+                        android:height="55dp"></size>
 
                 </shape>
             </item>
@@ -32,10 +32,11 @@
                         android:startColor="#DCE5FD" />
 
                     <size
-                        android:width="50dp"
-                        android:height="50dp"></size>
+                        android:width="60dp"
+                        android:height="60dp"></size>
 
                 </shape>
+
             </item>
 
             <item android:drawable="@drawable/plus"></item>
