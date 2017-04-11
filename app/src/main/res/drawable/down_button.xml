@@ -1,0 +1,45 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:state_pressed="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item >
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+                    <gradient
+                        android:angle="90"
+                        android:endColor="#C5D9F4"
+                        android:startColor="#DCE5FD" />
+
+                    <size
+                        android:width="50dp"
+                        android:height="50dp"></size>
+
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/minus"></item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item >
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+                    <gradient
+                        android:angle="90"
+                        android:endColor="#DCE5FD"
+                        android:startColor="#DCE5FD" />
+
+                    <size
+                        android:width="50dp"
+                        android:height="50dp"></size>
+
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/minus"></item>
+        </layer-list>
+    </item>
+</selector>
